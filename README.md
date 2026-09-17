@@ -36,5 +36,8 @@ A 4-week practical learning track covering UX fundamentals, user research, proto
 
 
 
-**Author:** Yemi
-**Internship:** Skill Set Go EduTech — UI/UX Design Internship, Sep–Oct 2026
+##
+
+**Author:** Yemima Sutanto
+
+for Skill Set Go EduTech — UI/UX Design Internship, Sep–Oct 2026
