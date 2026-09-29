@@ -11,17 +11,16 @@ A 4-week practical learning track covering UX fundamentals, user research, proto
 ## Repo Structure
  
 ```
-├── week-1-fundamentals/
+├── Week1-Fundamentals/
 │   ├── personas/
 │   └── wireframes/
-├── week-2-research-prototyping/
-│   ├── research-summary/
+├── Week2-Research-Prototyping/
 │   ├── journey-map/
 │   └── prototype/
-├── week-3-design-system/
+├── Week3-Design-System/
 │   ├── components/
 │   └── responsive-screens/
-├── week-4-case-study/
+├── Week4-Case-Study/
 │   ├── final-prototype/
 │   └── case-study.pdf
 └── certificates/
