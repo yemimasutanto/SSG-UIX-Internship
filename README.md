@@ -31,7 +31,7 @@ A 4-week practical learning track covering UX fundamentals, user research, proto
 | Week | Focus | Status |
 |------|-------|--------|
 | Week 1 | UX principles, user personas, low-fi wireframes, high-fi Figma design | ✅ Done |
-| Week 2 | User research, journey map, IA, interactive prototype, usability testing | ⬜ Not started |
+| Week 2 | User research, journey map, IA, interactive prototype, usability testing | ✅ Done |
 | Week 3 | Design system, UI components, responsive design, accessibility | ⬜ Not started |
 | Week 4 | Final product design, UX case study, presentation deck | ⬜ Not started |
  
@@ -68,7 +68,7 @@ Week 2 research reinforced this approach (multiple options over a single suggest
  
 - Wireframes (Week 1): `week-1-fundamentals/wireframes/`
 - Figma (high-fidelity): *[link]*
-- Interactive prototype: *[link — coming in Week 2]*
+- Interactive prototype: https://www.figma.com/proto/pFFZTPkFzBGS3rwcdSrmk9/Untitled?node-id=1-83&viewport=275%2C41%2C0.68&t=0rslMMcX9qeD3ZT4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A83&page-id=0%3A1
 ## Usability Testing
  
 *[Summary of usability test findings — coming in Week 2]*
