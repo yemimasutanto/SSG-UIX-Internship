@@ -132,7 +132,6 @@ These interactions were added to move beyond static high-fidelity screens and de
 
 * Wireframes (Week 1): `Week1-Fundamentals/wireframes/`
 * Journey map (Week 2): `Week2-Research-Prototyping/journey-map/`
-* Prototype files (Week 2): `Week2-Research-Prototyping/prototype/`
 * Figma (high-fidelity): *[link]*
 * Interactive prototype: https://www.figma.com/proto/pFFZTPkFzBGS3rwcdSrmk9/Untitled?node-id=1-83&viewport=275%2C41%2C0.68&t=0rslMMcX9qeD3ZT4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A83&page-id=0%3A1
 
