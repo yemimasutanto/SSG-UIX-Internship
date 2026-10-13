@@ -6,7 +6,7 @@ Documentation and deliverables for the **UI/UX Design Internship** at Skill Set 
 
 A 4-week practical learning track covering UX fundamentals, user research, prototyping, usability testing, design systems, and a final UX case study capstone.
 
-**Project:** Marathon Training Companion — unlike apps that "sell" a training program in place of a coach, this app's core role is to help runners track and stay accountable to a training plan they already have (self-made or coach-given), through reminders, progress tracking, and adaptive rescheduling when real life gets in the way. Suggesting a training menu is an optional, secondary feature — not the core value proposition.
+**Project:** **Stready** — a marathon training companion (name = *streak* + *steady*). Unlike apps that "sell" a training program in place of a coach, this app's core role is to help runners track and stay accountable to a training plan they already have (self-made or coach-given), through reminders, progress tracking, and adaptive rescheduling when real life gets in the way. Suggesting a training menu is an optional, secondary feature — not the core value proposition.
 
 ## Repo Structure
 
