@@ -28,12 +28,12 @@ A 4-week practical learning track covering UX fundamentals, user research, proto
 
 ## Week-by-Week Progress
 
-| Week   | Focus                                                                                          | Status        |
-| ------ | ---------------------------------------------------------------------------------------------- | ------------- |
-| Week 1 | UX principles, user personas, low-fi wireframes, high-fi Figma design                          | ✅ Done        |
-| Week 2 | User research, journey map, information architecture, interactive prototype, usability testing | ✅ Done        |
-| Week 3 | Design system, UI components, responsive design, accessibility                                 | ⬜ Not started |
-| Week 4 | Final product design, UX case study, presentation deck                                         | ⬜ Not started |
+| Week   | Focus                                                                                          | Status                     |
+| ------ | ---------------------------------------------------------------------------------------------- | -------------------------- |
+| Week 1 | UX principles, user personas, low-fi wireframes, high-fi Figma design                          | ✅ Done                     |
+| Week 2 | User research, journey map, information architecture, interactive prototype, usability testing | ✅ Done                     |
+| Week 3 | Design system, UI components, responsive design, accessibility                                 | 🟡 Design system done      |
+| Week 4 | Final product design, UX case study, presentation deck                                         | ⬜ Not started              |
 
 ## Problem & Target User
 
@@ -128,12 +128,21 @@ The Week 2 prototype introduced interactive UI states needed to make the core fl
 
 These interactions were added to move beyond static high-fidelity screens and demonstrate the intended user experience.
 
+## Design System (Week 3)
+
+A reusable design system and component library were built in Figma to keep the interface consistent across screens and to support the improvements identified in usability testing.
+
+* Design system / component library (Figma): *[link]*
+* Exported references: `Week3-Design-System/components/`
+* Responsive screens: `Week3-Design-System/responsive-screens/`
+
 ## Prototype
 
 * Wireframes (Week 1): `Week1-Fundamentals/wireframes/`
 * Journey map (Week 2): `Week2-Research-Prototyping/journey-map/`
 * Figma (high-fidelity): *[link]*
 * Interactive prototype: https://www.figma.com/proto/pFFZTPkFzBGS3rwcdSrmk9/Untitled?node-id=1-83&viewport=275%2C41%2C0.68&t=0rslMMcX9qeD3ZT4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A83&page-id=0%3A1
+* Design system (Week 3): *[link]*
 
 ## Usability Testing
 
@@ -194,25 +203,22 @@ Therefore, the findings above should be treated as **initial usability insights 
 
 ## External Certificates
 
-| Platform               | Credential             | Evidence                                                                                                                                                               |
-| ---------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Great Learning Academy | Figma for UI/UX Design | [Certificate PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/week-1-fundamentals/certificates/YemimaSutanto_GreatLearningAcademy_FigmaforUIUXDesign.pdf) |
-| IBM SkillsBuild        |                        |                                                                                                                                                                        |
-| Infosys Springboard    |                        |                                                                                                                                                                        |
-| Simplilearn / HP LIFE  |                        |                                                                                                                                                                        |
+| Platform               | Credential                | Evidence                                                                                                                                                               |
+| ---------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Great Learning Academy | Figma for UI/UX Design    | [Certificate PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/week-1-fundamentals/certificates/YemimaSutanto_GreatLearningAcademy_FigmaforUIUXDesign.pdf) |
+| IBM SkillsBuild        | UX Fundamentals           | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_IBM_UX_Fundamental_Credential.pdf)                           |
+| Simplilearn SkillUp    | Intro to Basic UI/UX      | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_Simplilearn_IntroBasicUIUX_Credential.pdf)                   |
+| HP LIFE                | *[course title]*          | ⏳ In progress                                                                                                                                                          |
 
-## Next Improvements
+## Next Steps
 
-The next stage will focus on strengthening the visual and interaction system rather than expanding the product scope.
+Week 4 focuses on bringing everything together into a final product and case study:
 
-Planned improvements include:
-
-* Establishing a reusable design system and component library
-* Standardizing typography, spacing, colors, and interaction states
-* Improving responsive behavior across screen sizes
-* Reviewing accessibility and interaction clarity
-* Refining the prototype based on usability feedback
-* Preparing the final product direction and UX case study
+* Apply the usability findings: clearer "Add Workout" call-to-action, stronger affordance for the Reschedule / Adjust entry point and "Reschedule Manually"
+* Finalize the product design using the Week 3 design system
+* Prepare the UX case study and presentation deck
+* Run additional usability tests with more runners to validate the improvements
+* Explore a route-map option when recording a workout (feature request from testing)
 
 ---
 
