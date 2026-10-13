@@ -208,7 +208,7 @@ Therefore, the findings above should be treated as **initial usability insights 
 | Great Learning Academy | Figma for UI/UX Design    | [Certificate PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/week-1-fundamentals/certificates/YemimaSutanto_GreatLearningAcademy_FigmaforUIUXDesign.pdf) |
 | IBM SkillsBuild        | UX Fundamentals           | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_IBM_UX_Fundamental_Credential.pdf)                           |
 | Simplilearn SkillUp    | Intro to Basic UI/UX      | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_Simplilearn_IntroBasicUIUX_Credential.pdf)                   |
-| HP LIFE                | Design Thinking         | ⏳ In progress                                                                                                                                                          |
+| HP LIFE                | Design Thinking         | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_HPLife_Design_Thinking_Credential.pdf)                                                                                                                                                           |
 
 ## Next Steps
 
