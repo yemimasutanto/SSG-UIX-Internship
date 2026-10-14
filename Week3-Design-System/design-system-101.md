@@ -13,7 +13,6 @@
 | Alert/Warning | Amber | `#FBBF24` | Reminders, "Sick/Unwell" type alerts (used sparingly) |
 | Neutral chart bars | Grey | `#D1D5DB` | Inactive bars in "This Week" chart |
 
-> Fill in with your exact hex codes from Figma's color picker if any of the above differ slightly from what you applied.
 
 ## 2. Typography
 
@@ -25,7 +24,6 @@
 | Label | 12–13px | Medium | Timestamps, metadata (e.g. "6 km • 7:00/km • 42m") |
 | Button text | 14–15px | Semibold | Button labels |
 
-> Check your actual Figma text styles and replace these with your real values — if you haven't set named Text Styles yet, this is a good time to create them (select text → right panel → Text → create style icon) so they're reusable.
 
 ## 3. Spacing & Layout
 
@@ -38,7 +36,6 @@
 | Corner radius (buttons) | 8px | Button corners |
 | Icon circle size | 40px | Activity icon circles (Calendar/Log lists) |
 
-> Adjust these to match what you've actually been using — open a few screens, select elements, and note the real values from the right panel.
 
 ## 4. Component Library
 
