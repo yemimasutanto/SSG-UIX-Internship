@@ -28,12 +28,12 @@ A 4-week practical learning track covering UX fundamentals, user research, proto
 
 ## Week-by-Week Progress
 
-| Week   | Focus                                                                                          | Status                     |
-| ------ | ---------------------------------------------------------------------------------------------- | -------------------------- |
-| Week 1 | UX principles, user personas, low-fi wireframes, high-fi Figma design                          | ✅ Done                     |
-| Week 2 | User research, journey map, information architecture, interactive prototype, usability testing | ✅ Done                     |
-| Week 3 | Design system, UI components, responsive design, accessibility                                 | 🟡 Design system done      |
-| Week 4 | Final product design, UX case study, presentation deck                                         | ⬜ Not started              |
+| Week   | Focus                                                                                          | Status                                |
+| ------ | ---------------------------------------------------------------------------------------------- | ------------------------------------- |
+| Week 1 | UX principles, user personas, low-fi wireframes, high-fi Figma design                          | ✅ Done                                |
+| Week 2 | User research, journey map, information architecture, interactive prototype, usability testing | ✅ Done                                |
+| Week 3 | Design system, UI components, responsive design, accessibility                                 | 🟡 In progress (design system ~80%)   |
+| Week 4 | Final product design, UX case study, presentation deck                                         | 🟡 In progress                        |
 
 ## Problem & Target User
 
@@ -86,6 +86,9 @@ The prototype structure was organized around the user's core training workflow:
 * **Workout Log** — review planned vs. completed workouts
 * **Reschedule / Adjust** — respond to a disrupted workout and explore alternative options
 * **Workout / Training Details** — inspect individual sessions and relevant training information
+* **Profile** — lightweight screen with runner details, race goal, settings, and a "Connected devices" placeholder for future smartwatch sync
+
+Bottom navigation (persistent): **Home | Calendar | Log | Profile**. Reschedule / Adjust is reached contextually from Home and Schedule Detail rather than from the bottom navigation.
 
 The architecture supports two potential usage modes:
 
@@ -143,6 +146,12 @@ A reusable design system and component library were built in Figma to keep the i
 * Figma (high-fidelity): *[link]*
 * Interactive prototype: https://www.figma.com/proto/pFFZTPkFzBGS3rwcdSrmk9/Untitled?node-id=1-83&viewport=275%2C41%2C0.68&t=0rslMMcX9qeD3ZT4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A83&page-id=0%3A1
 * Design system (Week 3): *[link]*
+
+## Scope & Limitations
+
+* **No authentication.** Login and account creation were intentionally left out of the prototype. Usability testing focused on three core flows (rescheduling, logging workouts, checking progress), none of which depend on an account, so the test results are not affected by this omission.
+* **Profile is intentionally lightweight.** The Profile screen is limited to runner details, race goal, settings, and a "Connected devices" placeholder marked as coming soon. It exists to complete the navigation structure and to show the design system applied to a settings-style screen, not as a fully designed feature.
+* **Small usability sample.** Only one participant completed testing (see Usability Testing Limitations below).
 
 ## Usability Testing
 
@@ -208,7 +217,7 @@ Therefore, the findings above should be treated as **initial usability insights 
 | Great Learning Academy | Figma for UI/UX Design    | [Certificate PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/week-1-fundamentals/certificates/YemimaSutanto_GreatLearningAcademy_FigmaforUIUXDesign.pdf) |
 | IBM SkillsBuild        | UX Fundamentals           | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_IBM_UX_Fundamental_Credential.pdf)                           |
 | Simplilearn SkillUp    | Intro to Basic UI/UX      | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_Simplilearn_IntroBasicUIUX_Credential.pdf)                   |
-| HP LIFE                | Design Thinking         | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_HPLife_Design_Thinking_Credential.pdf)                                                                                                                                                           |
+| HP LIFE                | Design Thinking           | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_HPLife_Design_Thinking_Credential.pdf)                       |
 
 ## Next Steps
 
