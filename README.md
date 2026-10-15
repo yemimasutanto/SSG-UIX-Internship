@@ -16,12 +16,12 @@ A 4-week practical learning track covering UX fundamentals, user research, proto
 │   └── wireframes/
 ├── Week2-Research-Prototyping/
 │   ├── journey-map/
-│   └── prototype/
+│   └── information-architecture/
 ├── Week3-Design-System/
-│   ├── components/
-│   └── responsive-screens/
+│   └──design-system-101/
 ├── Week4-Case-Study/
 │   ├── final-prototype/
+│   ├── presentation-deck/
 │   └── case-study.pdf
 └── certificates/
 ```
@@ -32,8 +32,8 @@ A 4-week practical learning track covering UX fundamentals, user research, proto
 | ------ | ---------------------------------------------------------------------------------------------- | ------------------------------------- |
 | Week 1 | UX principles, user personas, low-fi wireframes, high-fi Figma design                          | ✅ Done                                |
 | Week 2 | User research, journey map, information architecture, interactive prototype, usability testing | ✅ Done                                |
-| Week 3 | Design system, UI components, responsive design, accessibility                                 | 🟡 In progress (design system ~80%)   |
-| Week 4 | Final product design, UX case study, presentation deck                                         | 🟡 In progress                        |
+| Week 3 | Design system, UI components, responsive design, accessibility                                 | ✅ Done |
+| Week 4 | Final product design, UX case study, presentation deck                                         | ✅ Done |
 
 ## Problem & Target User
 
@@ -133,19 +133,32 @@ These interactions were added to move beyond static high-fidelity screens and de
 
 ## Design System (Week 3)
 
-A reusable design system and component library were built in Figma to keep the interface consistent across screens and to support the improvements identified in usability testing.
+A reusable design system and component library were built in Figma to keep the interface consistent across screens and to support the improvements identified in usability testing. Full documentation: [`design-system-101.md`](design-system-101.md).
 
-* Design system / component library (Figma): *[link]*
-* Exported references: `Week3-Design-System/components/`
-* Responsive screens: `Week3-Design-System/responsive-screens/`
+**Foundations**
+
+* **Color:** Deep Teal `Primary/600` as the single action and selection color, neutral scale (`Neutral/900` to `Neutral/0`) for text and surfaces, and Amber `Accent/400` used sparingly for alerts, always with dark text.
+* **Typography:** Inter, six named text styles (Metric 28, H1 20, H2 16, Body 14, Label 12, Button 14). The minimum text size is 12 px.
+* **Spacing:** 4 / 8 / 12 / 16 / 24 / 32 scale, 16 px screen and card padding, 12 px card gap.
+* **Accessibility:** key text and UI color pairs checked against WCAG AA contrast (e.g. white on teal 5.62:1, secondary grey on white 4.83:1). Known gaps are listed in the documentation.
+
+**Components (built in Figma)**
+
+* Buttons (primary and secondary, with and without icon variants)
+* Bottom navigation (Home, Calendar, Log, Profile)
+* Radio button, date chip, form fields
+* Cards: Training, Train-suggest, Adjustment option, Suggestion
+* Week calendar, weekly progress, chart
+* Modal (opened from the Adjustment option card via "View Details")
 
 ## Prototype
 
 * Wireframes (Week 1): `Week1-Fundamentals/wireframes/`
 * Journey map (Week 2): `Week2-Research-Prototyping/journey-map/`
-* Figma (high-fidelity): *[link]*
-* Interactive prototype: https://www.figma.com/proto/pFFZTPkFzBGS3rwcdSrmk9/Untitled?node-id=1-83&viewport=275%2C41%2C0.68&t=0rslMMcX9qeD3ZT4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A83&page-id=0%3A1
-* Design system (Week 3): *[link]*
+* **Week 2 prototype (as tested in usability testing):** https://www.figma.com/proto/pFFZTPkFzBGS3rwcdSrmk9/Untitled?node-id=1-83&viewport=275%2C41%2C0.68&t=0rslMMcX9qeD3ZT4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A83&page-id=0%3A1
+* Design system and final screens (Week 3–4):`Week4-Case-Study`
+
+The Week 2 file is kept unchanged so it matches what the usability participant saw. Later improvements live in the second file.
 
 ## Scope & Limitations
 
@@ -219,15 +232,6 @@ Therefore, the findings above should be treated as **initial usability insights 
 | Simplilearn SkillUp    | Intro to Basic UI/UX      | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_Simplilearn_IntroBasicUIUX_Credential.pdf)                   |
 | HP LIFE                | Design Thinking           | [Credential PDF](https://github.com/yemimasutanto/SSG-UIX-Internship/blob/main/certificates/YemimaSutanto_HPLife_Design_Thinking_Credential.pdf)                       |
 
-## Next Steps
-
-Week 4 focuses on bringing everything together into a final product and case study:
-
-* Apply the usability findings: clearer "Add Workout" call-to-action, stronger affordance for the Reschedule / Adjust entry point and "Reschedule Manually"
-* Finalize the product design using the Week 3 design system
-* Prepare the UX case study and presentation deck
-* Run additional usability tests with more runners to validate the improvements
-* Explore a route-map option when recording a workout (feature request from testing)
 
 ---
 
